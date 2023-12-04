@@ -16,7 +16,8 @@ MonoBehaviour:
   PauseMenuPrefab: {fileID: 2339396593488938171, guid: f00554883739e0a458d325154b1c35cf, type: 3}
   DialogChoicePrefab: {fileID: 6952770248755173999, guid: fbe25e2e2911e6d4cbe22550809a88d6, type: 3}
   GlobalsPluginsPrefab: {fileID: 0}
-  Languages: []
+  Languages:
+  - en
   Resolution: {x: 1920, y: 1080}
-  DefaultFont: {fileID: 0}
+  DefaultFont: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   ForkOverlayAlpha: 0

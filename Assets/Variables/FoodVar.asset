@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 928527e83d2ed684bb9f9a333b97cbfe, type: 3}
+  m_Name: FoodVar
+  m_EditorClassIdentifier: 
+  Guid: e91cc176cff1b964f8d2b9bb20ce7c29
+  PersistanceType: 0
+  DefaultValue: 15
+  Comment: 
+  MaxValue: 100
+  MinValue: 0
