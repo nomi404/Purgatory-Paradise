@@ -1,0 +1,1734 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &54545839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 54545840}
+  - component: {fileID: 54545842}
+  - component: {fileID: 54545841}
+  m_Layer: 0
+  m_Name: SwitchScene Email
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &54545840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54545839}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 83438536}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &54545841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54545839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2393a78221df6f4397ab0ee9cbbf2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Destination:
+    m_SceneAsset: {fileID: 102900000, guid: 16d9a57e9d7f1c444b764fd9c55adceb, type: 3}
+    m_SceneName: EmailScene
+  DialogNodeID: 
+  FadeToBlack: 1
+  OnSwitch:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &54545842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54545839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &83438535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83438536}
+  m_Layer: 0
+  m_Name: Scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &83438536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83438535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 54545840}
+  - {fileID: 1972259308}
+  - {fileID: 1642899493}
+  - {fileID: 320271760}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &204045836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 204045838}
+  - component: {fileID: 204045837}
+  m_Layer: 0
+  m_Name: Dialogues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &204045837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204045836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10fe5d6867c1b5449b4bf163fcd72ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentTree:
+    NodeIdAutoIncrement: 15
+    Name: T2
+    FirstNode: 0
+    Nodes:
+    - ID: 0
+      ReadableID: Start
+      Rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 150
+        height: 125
+      Type: 7
+      Connections: 01000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 1
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 356
+        y: 142
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0200000008000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 2
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 630
+        y: 62
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 04000000
+      Text: That was wonderful!
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 3
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 665
+        y: 269
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 05000000
+      Text: Could we also try something else?
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 4
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 825
+        y: 62
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 09000000
+      Text: Thank you, years of practice.
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: e35d6a9ff92ed9845b7fdeaed44e75b7, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 5
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 832
+        y: 289
+        width: 150
+        height: 125
+      Type: 6
+      Connections: 0600000007000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions:
+      - AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: bbde4049e65dfcd46a30edf7a8d90c60, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      - AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 95bf7e1d11cf2434bb02ff0873b7413a, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+    - ID: 6
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1031
+        y: 211
+        width: 150
+        height: 125
+      Type: 3
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: T1
+      ConnectorTreeIndex: 0
+      ConnectorNode: Song2
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 7
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1029
+        y: 356
+        width: 150
+        height: 125
+      Type: 3
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: T1
+      ConnectorTreeIndex: 0
+      ConnectorNode: Song1
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 8
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 535
+        y: 267
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 03000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: bbde4049e65dfcd46a30edf7a8d90c60, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 95bf7e1d11cf2434bb02ff0873b7413a, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 9
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1024
+        y: 60
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0a000000
+      Text: 'Dora: So that''s it. So if you''re happy, we can meet in a studio and
+        start rolling, right?'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 300621bb15e733840917b6e5d572e256, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 10
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1226
+        y: 66
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0b000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 11
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1415
+        y: 63
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0d000000
+      Text: "Well, you\u2019ve been wonderful. This is gonna be a great example game!"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 13
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1595
+        y: 52
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0e000000
+      Text: Thank you, wait what?!
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: dea0dbe9d9d542a4e8ea762806de7a87, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 14
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1766
+        y: 59
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 320271762}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    LocalizationPrefix: 
+  Trees:
+  - NodeIdAutoIncrement: 23
+    Name: T1
+    FirstNode: 0
+    Nodes:
+    - ID: 0
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 117
+        y: 298
+        width: 150
+        height: 125
+      Type: 7
+      Connections: 01000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 1
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 319
+        y: 301
+        width: 150
+        height: 125
+      Type: 6
+      Connections: 0200000003000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions:
+      - AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 2d3f09e873a2aa1428234073b3190d02, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      - AndGroups:
+        - Expressions:
+          - Variable: {fileID: 0}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+    - ID: 2
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 581
+        y: 197
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 09000000
+      Text: "Oh hey. I\u2019ve got your email. So - here we go!"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: bd3494401b2e6e443ae6d2480963d168, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 3
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 581
+        y: 433
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 07000000
+      Text: Oh hey. My inbox is empty. Are you sure you sent something? Call me again
+        after you do.
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: c721b79474848ba4fb432da581f03aa5, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 7
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 808
+        y: 456
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 54545842}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 9
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 813
+        y: 191
+        width: 150
+        height: 125
+      Type: 6
+      Connections: 0a0000000b000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions:
+      - AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 7a5d17821b5418942b94439079f29473, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 1
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      - AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 7a5d17821b5418942b94439079f29473, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 2
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+    - ID: 10
+      ReadableID: Song1
+      Rect:
+        serializedVersion: 2
+        x: 1080
+        y: 101
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 10000000
+      Text: zpev 1
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: cb3c91797b9cf074b91d49465c5340e9, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 11
+      ReadableID: Song2
+      Rect:
+        serializedVersion: 2
+        x: 1082
+        y: 277
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0d000000
+      Text: 'zpev 2
+
+'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: c2673d7a3d295c14ca3d7b025a552fb5, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 13
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1277
+        y: 276
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 13000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1642899495}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 16
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1283
+        y: 122
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 13000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1972259310}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 19
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1525
+        y: 124
+        width: 150
+        height: 125
+      Type: 3
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: T2
+      ConnectorTreeIndex: 1
+      ConnectorNode: Start
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    LocalizationPrefix: 
+  - NodeIdAutoIncrement: 15
+    Name: T2
+    FirstNode: 0
+    Nodes:
+    - ID: 0
+      ReadableID: Start
+      Rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 150
+        height: 125
+      Type: 7
+      Connections: 01000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 1
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 356
+        y: 142
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0200000008000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 2
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 630
+        y: 62
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 04000000
+      Text: That was wonderful!
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 3
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 665
+        y: 269
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 05000000
+      Text: Could we also try something else?
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 4
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 825
+        y: 62
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 09000000
+      Text: Thank you, years of practice.
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: e35d6a9ff92ed9845b7fdeaed44e75b7, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 5
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 832
+        y: 289
+        width: 150
+        height: 125
+      Type: 6
+      Connections: 0600000007000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions:
+      - AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: bbde4049e65dfcd46a30edf7a8d90c60, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      - AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 95bf7e1d11cf2434bb02ff0873b7413a, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+    - ID: 6
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1031
+        y: 211
+        width: 150
+        height: 125
+      Type: 3
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: T1
+      ConnectorTreeIndex: 0
+      ConnectorNode: Song2
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 7
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1029
+        y: 356
+        width: 150
+        height: 125
+      Type: 3
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: T1
+      ConnectorTreeIndex: 0
+      ConnectorNode: Song1
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 8
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 535
+        y: 267
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 03000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: bbde4049e65dfcd46a30edf7a8d90c60, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 95bf7e1d11cf2434bb02ff0873b7413a, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 9
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1024
+        y: 60
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0a000000
+      Text: 'Dora: So that''s it. So if you''re happy, we can meet in a studio and
+        start rolling, right?'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 300621bb15e733840917b6e5d572e256, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 10
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1226
+        y: 66
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0b000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 11
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1415
+        y: 63
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0d000000
+      Text: "Well, you\u2019ve been wonderful. This is gonna be a great example game!"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 13
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1595
+        y: 52
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0e000000
+      Text: Thank you, wait what?!
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: dea0dbe9d9d542a4e8ea762806de7a87, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+    - ID: 14
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1766
+        y: 59
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 320271762}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+    LocalizationPrefix: 
+  TextMode: 0
+--- !u!4 &204045838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204045836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &320271759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 320271760}
+  - component: {fileID: 320271762}
+  - component: {fileID: 320271761}
+  m_Layer: 0
+  m_Name: Game End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &320271760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320271759}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 83438536}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &320271761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320271759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2393a78221df6f4397ab0ee9cbbf2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Destination:
+    m_SceneAsset: {fileID: 102900000, guid: 1f323b95c26620142946b0c005f64c1b, type: 3}
+    m_SceneName: MainMenu
+  DialogNodeID: 
+  FadeToBlack: 1
+  OnSwitch:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &320271762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320271759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &348363868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 348363870}
+  - component: {fileID: 348363869}
+  m_Layer: 0
+  m_Name: DialogManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &348363869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348363868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5e5dc839852084db2f9d71411ceb75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogues: {fileID: 204045837}
+  OnDialogStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDialogResume:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &348363870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348363868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1642899492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642899493}
+  - component: {fileID: 1642899495}
+  - component: {fileID: 1642899494}
+  m_Layer: 0
+  m_Name: SeenSong2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642899493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642899492}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 83438536}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1642899494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642899492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ff3a10dd569d044a87ce144561aaf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 95bf7e1d11cf2434bb02ff0873b7413a, type: 2}
+        m_MethodName: SetTrue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1642899495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642899492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1944500077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1944500080}
+  - component: {fileID: 1944500079}
+  - component: {fileID: 1944500078}
+  m_Layer: 0
+  m_Name: SceneRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1944500078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944500077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c24aa39f25f4a9e47adcf6120ae6e889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1944500079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944500077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2cdbf733a30ce4eb2179623c90f32d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1944500080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944500077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1967633516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1967633518}
+  - component: {fileID: 1967633517}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1967633517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967633516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2145d52d2f9e1dc4cb6d3aa6bd24e08f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnScreenLoad:
+    m_PersistentCalls:
+      m_Calls: []
+  OnScreenShow:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 348363869}
+        m_MethodName: StartDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnScreenHide:
+    m_PersistentCalls:
+      m_Calls: []
+  FadeInOnStart: 1
+  PauseMenuEnabled: 1
+  UntrackedScene: 0
+--- !u!4 &1967633518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967633516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1972259307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972259308}
+  - component: {fileID: 1972259310}
+  - component: {fileID: 1972259309}
+  m_Layer: 0
+  m_Name: SeenSong1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1972259308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972259307}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 83438536}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1972259309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972259307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ff3a10dd569d044a87ce144561aaf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: bbde4049e65dfcd46a30edf7a8d90c60, type: 2}
+        m_MethodName: SetTrue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1972259310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972259307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2130055124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1650713343246574, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_Name
+      value: SceneCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20609022121219700, guid: 0c6320f7cb5a54c47a6ace1232415e0c,
+        type: 3}
+      propertyPath: orthographic size
+      value: 540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}

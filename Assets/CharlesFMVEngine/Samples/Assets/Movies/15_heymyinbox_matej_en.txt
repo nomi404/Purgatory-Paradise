@@ -1,0 +1,16 @@
+1
+00:00:00,600 --> 00:00:01,700
+Oh, hey
+
+2
+00:00:01,900 --> 00:00:03,300
+My inbox is empty
+
+3
+00:00:03,700 --> 00:00:05,400
+Are you sure you sent something?
+
+4
+00:00:06,000 --> 00:00:08,400
+Well, call me after you do.
+

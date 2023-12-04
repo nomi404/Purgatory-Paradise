@@ -1,0 +1,8 @@
+1
+00:00:00,300 --> 00:00:01,600
+Oh, that sounds fun!
+
+2
+00:00:02,000 --> 00:00:04,400
+What kind of a game engine is that exactly?
+

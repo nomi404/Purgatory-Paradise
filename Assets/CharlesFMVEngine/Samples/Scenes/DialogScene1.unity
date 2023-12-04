@@ -1,0 +1,3557 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &144583715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 144583716}
+  - component: {fileID: 144583717}
+  m_Layer: 0
+  m_Name: TimedAnswer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &144583716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144583715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246997379}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &144583717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144583715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d7b597617da4f27943414298d299758, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: {fileID: 1584490917}
+  Tree: T2
+  ForkId: TimedFork
+  Timer: {fileID: 645873916}
+--- !u!1 &221011037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 221011038}
+  - component: {fileID: 221011039}
+  - component: {fileID: 221011040}
+  m_Layer: 0
+  m_Name: RestartGameScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &221011038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221011037}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246997379}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &221011039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221011037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &221011040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221011037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2393a78221df6f4397ab0ee9cbbf2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Destination:
+    m_SceneAsset: {fileID: 102900000, guid: 1f323b95c26620142946b0c005f64c1b, type: 3}
+    m_SceneName: MainMenu
+  DialogNodeID: 
+  FadeToBlack: 1
+  OnSwitch:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &246997378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246997379}
+  m_Layer: 0
+  m_Name: Scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &246997379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246997378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1700087947}
+  - {fileID: 221011038}
+  - {fileID: 1138986875}
+  - {fileID: 638955653}
+  - {fileID: 1072683429}
+  - {fileID: 1673052729}
+  - {fileID: 144583716}
+  - {fileID: 645873914}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &395842832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 395842833}
+  - component: {fileID: 395842837}
+  - component: {fileID: 395842836}
+  - component: {fileID: 395842835}
+  - component: {fileID: 395842834}
+  - component: {fileID: 395842838}
+  m_Layer: 0
+  m_Name: desktop_answer_button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &395842833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395842832}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -150, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1198896422}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &395842834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395842832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a834473deb51bd45bfa6b8f5d489b2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnMouseEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMouseExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMouseClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1146815566}
+        m_MethodName: StartDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1673052730}
+        m_MethodName: StopSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 395842838}
+        m_MethodName: Hide
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &395842835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395842832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391bead3868e4e344981ddde32a05347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &395842836
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395842832}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 96, y: 96}
+    newSize: {x: 96, y: 96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 96, y: 96}
+  m_EdgeRadius: 0
+--- !u!212 &395842837
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395842832}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300000, guid: 21083ad4f36234343a2d2c7ebfc1ee7b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 96, y: 96}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &395842838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395842832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646ace68772b0b04087316fcb5db6a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitialVisibility: 1
+--- !u!1 &471318123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 471318124}
+  - component: {fileID: 471318128}
+  - component: {fileID: 471318127}
+  - component: {fileID: 471318126}
+  - component: {fileID: 471318125}
+  m_Layer: 0
+  m_Name: desktop_dialogwin_cross
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &471318124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471318123}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 258.1, y: 289.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 558206248}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &471318125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471318123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a834473deb51bd45bfa6b8f5d489b2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnMouseEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMouseExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMouseClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 558206249}
+        m_MethodName: Hide
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &471318126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471318123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391bead3868e4e344981ddde32a05347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &471318127
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471318123}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 44, y: 43}
+    newSize: {x: 44, y: 43}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 44, y: 43}
+  m_EdgeRadius: 0
+--- !u!212 &471318128
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471318123}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 163b81e33e18b93429b8a1cd0ac4874c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 44, y: 43}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &558206247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 558206248}
+  - component: {fileID: 558206250}
+  - component: {fileID: 558206249}
+  - component: {fileID: 558206251}
+  m_Layer: 0
+  m_Name: Dog Photo Window
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &558206248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558206247}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2092013589}
+  - {fileID: 471318124}
+  - {fileID: 1697146311}
+  m_Father: {fileID: 1549566941}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &558206249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558206247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646ace68772b0b04087316fcb5db6a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitialVisibility: 1
+--- !u!212 &558206250
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558206247}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!210 &558206251
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558206247}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+--- !u!1 &638955652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 638955653}
+  - component: {fileID: 638955655}
+  - component: {fileID: 638955654}
+  m_Layer: 0
+  m_Name: SwitchToScene Song 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &638955653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638955652}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246997379}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &638955654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638955652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2393a78221df6f4397ab0ee9cbbf2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Destination:
+    m_SceneAsset: {fileID: 102900000, guid: 501ac6340f193434f890a8d80a93ff81, type: 3}
+    m_SceneName: DialogScene2
+  DialogNodeID: T1/Song1
+  FadeToBlack: 1
+  OnSwitch:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &638955655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638955652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &645873913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 645873914}
+  - component: {fileID: 645873917}
+  - component: {fileID: 645873916}
+  - component: {fileID: 645873915}
+  m_Layer: 0
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &645873914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645873913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 522, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246997379}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &645873915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645873913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a4a33c828bd6dc4da0637b92ee23170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &645873916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645873913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f78e6258c5f784d85892dd7f73d8ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Time: 15
+  OnTimer:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!212 &645873917
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645873913}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 16
+  m_SortingLayer: 3
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: e1c2a442237c3fe40930130460d82e72, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 1
+  m_Size: {x: 1920, y: 36.84}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1010502403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1010502404}
+  - component: {fileID: 1010502405}
+  m_Layer: 0
+  m_Name: desktop_bg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1010502404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010502403}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1549566941}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1010502405
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010502403}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: 3bf66457831acf8489a8fc8a4fe9b405, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 1
+  m_Size: {x: 1920, y: 1080}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1072683426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1072683429}
+  - component: {fileID: 1072683427}
+  - component: {fileID: 1072683428}
+  m_Layer: 0
+  m_Name: SwitchToScene Song 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1072683427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072683426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1072683428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072683426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2393a78221df6f4397ab0ee9cbbf2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Destination:
+    m_SceneAsset: {fileID: 102900000, guid: 501ac6340f193434f890a8d80a93ff81, type: 3}
+    m_SceneName: DialogScene2
+  DialogNodeID: T1/Song2
+  FadeToBlack: 1
+  OnSwitch:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1072683429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072683426}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246997379}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1138986874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138986875}
+  - component: {fileID: 1138986877}
+  - component: {fileID: 1138986876}
+  m_Layer: 0
+  m_Name: SwitchToScene Email
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1138986875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138986874}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246997379}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1138986876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138986874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2393a78221df6f4397ab0ee9cbbf2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Destination:
+    m_SceneAsset: {fileID: 102900000, guid: 16d9a57e9d7f1c444b764fd9c55adceb, type: 3}
+    m_SceneName: EmailScene
+  DialogNodeID: 
+  FadeToBlack: 1
+  OnSwitch:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1138986877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138986874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1146815565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1146815567}
+  - component: {fileID: 1146815566}
+  m_Layer: 0
+  m_Name: DialogManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1146815566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146815565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5e5dc839852084db2f9d71411ceb75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogues: {fileID: 1584490917}
+  OnDialogStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDialogResume:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1146815567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146815565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1198896421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1198896422}
+  - component: {fileID: 1198896425}
+  - component: {fileID: 1198896424}
+  - component: {fileID: 1198896423}
+  m_Layer: 0
+  m_Name: desktop_notif
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1198896422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198896421}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 278, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 395842833}
+  m_Father: {fileID: 1549566941}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1198896423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198896421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bffc6e934441a547a896839ac4de503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetAlpha: 1
+  Duration: 1
+  OnTweenCompleteEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  RunOnStart: 0
+--- !u!114 &1198896424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198896421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646ace68772b0b04087316fcb5db6a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitialVisibility: 0
+--- !u!212 &1198896425
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198896421}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 6b93227fe1d4b9a41a13827ba4e7482a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.84, y: 4.43}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1549566938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1549566941}
+  - component: {fileID: 1549566940}
+  - component: {fileID: 1549566939}
+  m_Layer: 0
+  m_Name: SceneRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1549566939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549566938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c24aa39f25f4a9e47adcf6120ae6e889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1549566940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549566938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2cdbf733a30ce4eb2179623c90f32d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1549566941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549566938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1842481707}
+  - {fileID: 1010502404}
+  - {fileID: 1198896422}
+  - {fileID: 558206248}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1584490916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1584490918}
+  - component: {fileID: 1584490917}
+  m_Layer: 0
+  m_Name: Dialogues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1584490917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584490916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10fe5d6867c1b5449b4bf163fcd72ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentTree:
+    NodeIdAutoIncrement: 18
+    Name: T1
+    FirstNode: 0
+    Nodes:
+    - ID: 0
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 150
+        height: 125
+      Type: 7
+      Connections: 01000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 1
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 280
+        y: 400
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 02000000
+      Text: 'Hey, how are you? I got your email. '
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 0c267be2218a5014f85826fde0bb6be5, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 2
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 460
+        y: 400
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0300000004000000
+      Text: '[prostoj 1]'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: b5053d4ae3884d8479830e7ece4e31de, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 3
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 07000000
+      Text: Yes! We need somebody to play in our example project.
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 4
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 700
+        y: 500
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 05000000
+      Text: The number your calling is not available at the moment.
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 5
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 900
+        y: 500
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 06000000
+      Text: 'Dora: What? Is this a prank? Goodbye.'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 11c46a0dde954f847b461ea1afdae25c, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 6
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1100
+        y: 500
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 221011039}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 7
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 900
+        y: 280
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 08000000
+      Text: 'Sounds fun! What kind of game engine is it exactly? '
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: b487dd634b70861418718634717ae33e, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 8
+      ReadableID: S1
+      Rect:
+        serializedVersion: 2
+        x: 1100
+        y: 280
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 090000000a000000
+      Text: '[prostoj]'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 3d358110de032304f820accca7839a1c, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 9
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1300
+        y: 200
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0b000000
+      Text: "It\u2019s a tool for people to create interactive fiction with video."
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 10
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1300
+        y: 360
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0b000000
+      Text: We love games and movies. With this tool you can combine the best of
+        both!
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 11
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1500
+        y: 280
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0c000000
+      Text: "I\u2019m a big fan of choose-your-own-adventure games! How can I help?"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: e19b531b4c7e73e49a50f8dfee6efa97, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 12
+      ReadableID: S2
+      Rect:
+        serializedVersion: 2
+        x: 1700
+        y: 280
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0d0000000e000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 3d358110de032304f820accca7839a1c, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 13
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1869
+        y: 187
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 10000000
+      Text: We need videos to use in the example project. Nothing big, just a casual
+        conversation. Like this one!
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 14
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1875
+        y: 377
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0f000000
+      Text: "I\u2019ll just ask some questions, we can give it a try now!"
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 15
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 2067
+        y: 367
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 11000000
+      Text: "Alright, I\u2019m listening!"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 959cfdc5f1ae66f46aa03920be323d9a, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 16
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 2063
+        y: 182
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 11000000
+      Text: "So far so good. Is there anything else you\u2019d like to know?"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: f0eac4ce130103f46a007403c2efa73a, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 17
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 2285
+        y: 286
+        width: 150
+        height: 125
+      Type: 3
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: T2
+      ConnectorTreeIndex: 1
+      ConnectorNode: Start
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    LocalizationPrefix: 
+  Trees:
+  - NodeIdAutoIncrement: 18
+    Name: T1
+    FirstNode: 0
+    Nodes:
+    - ID: 0
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 150
+        height: 125
+      Type: 7
+      Connections: 01000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 1
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 280
+        y: 400
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 02000000
+      Text: 'Hey, how are you? I got your email. '
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 0c267be2218a5014f85826fde0bb6be5, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 2
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 460
+        y: 400
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0300000004000000
+      Text: '[prostoj 1]'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: b5053d4ae3884d8479830e7ece4e31de, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 3
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 07000000
+      Text: Yes! We need somebody to play in our example project.
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 4
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 700
+        y: 500
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 05000000
+      Text: The number your calling is not available at the moment.
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 5
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 900
+        y: 500
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 06000000
+      Text: 'Dora: What? Is this a prank? Goodbye.'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 11c46a0dde954f847b461ea1afdae25c, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 6
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1100
+        y: 500
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 221011039}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 7
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 900
+        y: 280
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 08000000
+      Text: 'Sounds fun! What kind of game engine is it exactly? '
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: b487dd634b70861418718634717ae33e, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 8
+      ReadableID: S1
+      Rect:
+        serializedVersion: 2
+        x: 1100
+        y: 280
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 090000000a000000
+      Text: '[prostoj]'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 3d358110de032304f820accca7839a1c, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 9
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1300
+        y: 200
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0b000000
+      Text: "It\u2019s a tool for people to create interactive fiction with video."
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 10
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1300
+        y: 360
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0b000000
+      Text: We love games and movies. With this tool you can combine the best of
+        both!
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 11
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1500
+        y: 280
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0c000000
+      Text: "I\u2019m a big fan of choose-your-own-adventure games! How can I help?"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: e19b531b4c7e73e49a50f8dfee6efa97, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 12
+      ReadableID: S2
+      Rect:
+        serializedVersion: 2
+        x: 1700
+        y: 280
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0d0000000e000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 3d358110de032304f820accca7839a1c, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 13
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1869
+        y: 187
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 10000000
+      Text: We need videos to use in the example project. Nothing big, just a casual
+        conversation. Like this one!
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 14
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1875
+        y: 377
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0f000000
+      Text: "I\u2019ll just ask some questions, we can give it a try now!"
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 15
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 2067
+        y: 367
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 11000000
+      Text: "Alright, I\u2019m listening!"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 959cfdc5f1ae66f46aa03920be323d9a, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 16
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 2063
+        y: 182
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 11000000
+      Text: "So far so good. Is there anything else you\u2019d like to know?"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: f0eac4ce130103f46a007403c2efa73a, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 17
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 2285
+        y: 286
+        width: 150
+        height: 125
+      Type: 3
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: T2
+      ConnectorTreeIndex: 1
+      ConnectorNode: Start
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    LocalizationPrefix: 
+  - NodeIdAutoIncrement: 35
+    Name: T2
+    FirstNode: 0
+    Nodes:
+    - ID: 0
+      ReadableID: Start
+      Rect:
+        serializedVersion: 2
+        x: 20
+        y: 320
+        width: 150
+        height: 125
+      Type: 7
+      Connections: 01000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 1
+      ReadableID: S3
+      Rect:
+        serializedVersion: 2
+        x: 320
+        y: 360
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 1c0000001d0000001e0000001f000000
+      Text: '[prostoj]'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 2
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 762
+        y: 360
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 08000000
+      Text: Have you ever wanted to make a video game?
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: 92303787972a0334ebcb850ef4b69396,
+        type: 2}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 3
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 860
+        y: 605
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 06000000
+      Text: Cats or dogs?
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: adfd7446be50dbb4f9264f817127ddf9,
+        type: 2}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 4
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 527
+        y: 688
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 07000000
+      Text: Is this conversation boring you?
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: 53db6ef8e7646e840bc36adc8f422bd5,
+        type: 2}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 5
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 181
+        y: 687
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 16000000
+      Text: I heard you can sing!
+      AnswerOrder: 3
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: 164ccd8c3b9e8c4408f79f1ce42680fb,
+        type: 2}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 6
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1050
+        y: 549
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 01000000
+      Text: Both! Greyhounds and Mayans, specifically.
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: d71b0e5d189c0d5419901cf5f0d2b7b1, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 7
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 524
+        y: 837
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 01000000
+      Text: " [Yawning] No, no.. I\u2019m awake"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: f613c0a3d005c6247a929f78cae1fb02, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 8
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 965
+        y: 342
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 09000000
+      Text: "I\u2019ve had some ideas, but didn\u2019t feel like I had the proper
+        tools to do it. I made some music for games though. How about you?\r\n"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: cfdcae8b5a7360e449c69757f8044840, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 9
+      ReadableID: TimedFork
+      Rect:
+        serializedVersion: 2
+        x: 1180
+        y: 340
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0a0000000b0000000c000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 10
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1380
+        y: 240
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0e000000
+      Text: "Yes, I\u2019m trying to make a game at the moment."
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 11
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1380
+        y: 400
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0d000000
+      Text: "No, I\u2019m not interested in games."
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 12
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1400
+        y: 560
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0d000000
+      Text: <akward silence>
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 13
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1580
+        y: 100
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 01000000
+      Text: Hm...
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: dca39f59e61126a4aad22cd26b666193, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 14
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1240
+        y: 40
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 01000000
+      Text: Well yeah, that makes sense.
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 4e574d743854e934690ec67b129570dc, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 22
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 181
+        y: 980
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 17000000
+      Text: Sure I can. Singing is my passion. If you wanna hear something, just
+        tell me what to sing.
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: b2cf11f0d4b630c408c1a0cd77d820e5, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 23
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 181
+        y: 1149
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 1800000019000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 24
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 434
+        y: 1065
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 1a000000
+      Text: ' Okay, I''ll email you my favorite song.'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 25
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 432
+        y: 1230
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 20000000
+      Text: Your call!
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 26
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 654
+        y: 1096
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1138986877}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 28
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 197
+        y: 627
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 05000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 92303787972a0334ebcb850ef4b69396, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: adfd7446be50dbb4f9264f817127ddf9, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 53db6ef8e7646e840bc36adc8f422bd5, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 29
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 543
+        y: 622
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 04000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 92303787972a0334ebcb850ef4b69396, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 53db6ef8e7646e840bc36adc8f422bd5, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: adfd7446be50dbb4f9264f817127ddf9, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 53db6ef8e7646e840bc36adc8f422bd5, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 30
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 640
+        y: 393
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 02000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 92303787972a0334ebcb850ef4b69396, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 31
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 737
+        y: 635
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 03000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: adfd7446be50dbb4f9264f817127ddf9, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 32
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 633
+        y: 1234
+        width: 150
+        height: 125
+      Type: 6
+      Connections: 2100000022000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: T1
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions:
+      - AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 7f4183e734df90b4fa574219fa94d7d7, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      - AndGroups:
+        - Expressions:
+          - Variable: {fileID: 0}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 33
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 883
+        y: 1219
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 638955655}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 34
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 884
+        y: 1303
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1072683427}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    LocalizationPrefix: 
+  TextMode: 0
+--- !u!4 &1584490918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584490916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1673052728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1673052729}
+  - component: {fileID: 1673052730}
+  m_Layer: 0
+  m_Name: Call Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1673052729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673052728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246997379}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1673052730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673052728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3216d5dc78de704c96057fc100c636c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: d01eb33dcc3c11445b12c1d0df296106, type: 3}
+  ClipID: 
+  Delay: 0
+  Volume: 1
+  HasSubtitles: 0
+  Loop: 0
+  OnSoundEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  IsSoundEffect: 0
+--- !u!1001 &1692426041
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1650713343246574, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_Name
+      value: SceneCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+--- !u!1 &1697146310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1697146311}
+  - component: {fileID: 1697146312}
+  m_Layer: 0
+  m_Name: dog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1697146311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697146310}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 558206248}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1697146312
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697146310}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 63d95e6bac0e49d4ea365e99770c472f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 550, y: 561}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1700087946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700087947}
+  - component: {fileID: 1700087948}
+  m_Layer: 0
+  m_Name: TimerShowNotification
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700087947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700087946}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246997379}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1700087948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700087946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f78e6258c5f784d85892dd7f73d8ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Time: 2
+  OnTimer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1198896424}
+        m_MethodName: Show
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1673052730}
+        m_MethodName: Run
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &1731828809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1731828811}
+  - component: {fileID: 1731828810}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1731828810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731828809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2145d52d2f9e1dc4cb6d3aa6bd24e08f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnScreenLoad:
+    m_PersistentCalls:
+      m_Calls: []
+  OnScreenShow:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1700087948}
+        m_MethodName: Run
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnScreenHide:
+    m_PersistentCalls:
+      m_Calls: []
+  FadeInOnStart: 1
+  PauseMenuEnabled: 1
+  UntrackedScene: 0
+--- !u!4 &1731828811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731828809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1842481706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1842481707}
+  - component: {fileID: 1842481708}
+  m_Layer: 0
+  m_Name: desktop_pane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1842481707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842481706}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -511.3, z: 0}
+  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1549566941}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1842481708
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842481706}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a2569ec8f7ed2c94490b579fb02e8aa7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1920, y: 64}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &2092013588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2092013589}
+  - component: {fileID: 2092013590}
+  m_Layer: 0
+  m_Name: desktop_dialogwin_bg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2092013589
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092013588}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 558206248}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2092013590
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092013588}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 62a9f5f0c5ddc1e4593c6e1c514a9f20, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 1
+  m_Size: {x: 573.5, y: 637.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

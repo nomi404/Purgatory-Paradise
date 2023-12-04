@@ -1,0 +1,4 @@
+This asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+A. Ultra Lightweight Tweening Engine for Unity
+Copyright 2014 Oink Games, Inc. and other contributors.
+Code licensed under the MIT License: http://opensource.org/licenses/MIT

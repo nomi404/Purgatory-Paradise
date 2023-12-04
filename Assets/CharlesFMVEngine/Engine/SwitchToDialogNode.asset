@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac094bc4f2e3b047b913f4cf788fd0a, type: 3}
+  m_Name: SwitchToDialogNode
+  m_EditorClassIdentifier: 
+  Guid: 8c74ff976abfbf1449e5f0e0acc8c15b
+  PersistanceType: 0
+  DefaultValue: 
+  Comment: This is a variable that the engine needs to remember which part of the
+    dialog was switched to. You should not mess with it :)

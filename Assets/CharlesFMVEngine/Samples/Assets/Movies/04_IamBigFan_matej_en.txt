@@ -1,0 +1,8 @@
+1
+00:00:00,300 --> 00:00:03,300
+I am a big fan of choose-your-own-adventure games.
+
+2
+00:00:03,400 --> 00:00:04,600
+How can I help?
+
