@@ -26,6 +26,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8ea53e23cdeeb0d4fb42077f7cf82240, type: 2}
   - {fileID: 11400000, guid: 6fee8e352f85c404e9c8a6de18f93205, type: 2}
   - {fileID: 11400000, guid: e91cc176cff1b964f8d2b9bb20ce7c29, type: 2}
+  - {fileID: 11400000, guid: fd5281fb97b9601428ec5b7548e6b39f, type: 2}
   - {fileID: 11400000, guid: 8c7c644abd5fc6146bdb4f947674d6f1, type: 2}
   - {fileID: 11400000, guid: 7358323db9a91fa41a62f87a873204d9, type: 2}
   - {fileID: 11400000, guid: 536b6c5de0e523e468599a994a023f28, type: 2}
@@ -48,6 +49,7 @@ MonoBehaviour:
   - DayActivitiesVar
   - DayVar
   - FoodVar
+  - SelectedSurvivorVar
   - ShelterVar
   - Survivor1Var
   - Survivor2Var

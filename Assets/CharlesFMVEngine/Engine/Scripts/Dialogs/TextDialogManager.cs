@@ -32,7 +32,8 @@ namespace CharlesEngine
                 _overlay = Instantiate(Globals.Choices.Overlay);
                 _overlay.SetActive(true);
                 var spriteRenderer = _overlay.GetComponent<SpriteRenderer>();
-                spriteRenderer.sortingLayerName = "Video";
+                spriteRenderer.sortingOrder = 0; //RIKI
+                spriteRenderer.sortingLayerName = "Default"; //RIKI spriteRenderer.sortingLayerName = "Video";
                 spriteRenderer.color = new Color(1,1,1,0f);
                 TweenA.Add(_overlay, 0.2f, 0.6f);
                 _overlay.transform.SetParent(rootobj, false);

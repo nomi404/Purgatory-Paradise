@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Camp.unity
     guid: 3b50e010c1c7b7d45a66327a5875e3c8
   - enabled: 1
-    path: Assets/CharlesFMVEngine/Engine/Scenes/Master.unity
-    guid: 36f8ccdeb686e96458fa281e10eae985
-  - enabled: 1
     path: Assets/Scenes/Wood.unity
     guid: d89a4d2996a211b44b2fbb6da1919217
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 3f444df6806ae644db5a9b85229fb397
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: d922866064697fd41aca09de46c5c80d
   m_configObjects: {}

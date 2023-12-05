@@ -3,7 +3,29 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Shelter
+  - Weapons
+  - ShelterButton
+  - WeaponsButton
+  - Survivor1
+  - Survivor2
+  - Survivor3
+  - Survivor4
+  - Day
+  - WoodCount
+  - Food
+  - Water
+  - Survivor1Selector
+  - Survivor2Selector
+  - Survivor3Selector
+  - Survivor4Selector
+  - WoodSelector
+  - FoodSelector
+  - WaterSelector
+  - WoodButton
+  - WaterButton
+  - FoodButton
   layers:
   - Default
   - TransparentFX
