@@ -26,6 +26,7 @@ TagManager:
   - WoodButton
   - WaterButton
   - FoodButton
+  - ActionsLeft
   layers:
   - Default
   - TransparentFX

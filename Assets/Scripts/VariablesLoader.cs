@@ -16,12 +16,24 @@ public class VariablesLoader : MonoBehaviour
     public IntVariable woodVar;
     public IntVariable foodVar;
     public IntVariable waterVar;
+    public IntVariable actionsLeftVar;
+    public BoolVariable lookedForWoodVar;
+    public BoolVariable lookedForWaterVar;
+    public BoolVariable lookedForFoodVar;
 
     private void Start()
     {
         if (survivor1Var.RuntimeValue <= 0 && survivor2Var.RuntimeValue <= 0 && survivor3Var.RuntimeValue <= 0 && survivor4Var.RuntimeValue <= 0) SceneManager.LoadScene("GameOver");
 
         if (dayVar.RuntimeValue >= 8) SceneManager.LoadScene("Win");
+
+        GameObject woodButton = GameObject.FindGameObjectWithTag("WoodButton");
+        GameObject waterButton = GameObject.FindGameObjectWithTag("WaterButton");
+        GameObject foodButton = GameObject.FindGameObjectWithTag("FoodButton");
+
+        woodButton.transform.GetChild(0).GetComponent<Button>().interactable = !lookedForWoodVar.RuntimeValue;
+        waterButton.transform.GetChild(0).GetComponent<Button>().interactable = !lookedForWaterVar.RuntimeValue;
+        foodButton.transform.GetChild(0).GetComponent<Button>().interactable = !lookedForFoodVar.RuntimeValue;
 
         GameObject.FindGameObjectWithTag("Shelter").transform.GetChild(0).gameObject.SetActive(shelterVar.RuntimeValue);
         GameObject.FindGameObjectWithTag("Weapons").transform.GetChild(0).gameObject.SetActive(weaponsVar.RuntimeValue);
@@ -34,6 +46,15 @@ public class VariablesLoader : MonoBehaviour
 
         if (!shelterVar.RuntimeValue && woodVar.RuntimeValue < 10) shelterButton.transform.GetChild(0).GetComponent<Button>().interactable = false;
         if (!weaponsVar.RuntimeValue && woodVar.RuntimeValue < 8) weaponsButton.transform.GetChild(0).GetComponent<Button>().interactable = false;
+
+        if (actionsLeftVar.RuntimeValue <= 0)
+        {
+            woodButton.transform.GetChild(0).GetComponent<Button>().interactable = false;
+            waterButton.transform.GetChild(0).GetComponent<Button>().interactable = false;
+            foodButton.transform.GetChild(0).GetComponent<Button>().interactable = false;
+            shelterButton.transform.GetChild(0).GetComponent<Button>().interactable = false;
+            weaponsButton.transform.GetChild(0).GetComponent<Button>().interactable = false;
+        }
 
         var gradient = new Gradient();
 
@@ -66,6 +87,7 @@ public class VariablesLoader : MonoBehaviour
         if (survivor4Var.RuntimeValue <= 0) survivor4.color = deathColor;
 
         GameObject.FindGameObjectWithTag("Day").GetComponent<TMP_Text>().text = "Day " + dayVar.RuntimeValue;
+        GameObject.FindGameObjectWithTag("ActionsLeft").GetComponent<TMP_Text>().text = "Actions left: " + actionsLeftVar.RuntimeValue;
 
         GameObject.FindGameObjectWithTag("WoodCount").GetComponent<TMP_Text>().text = woodVar.RuntimeValue + "x";
         GameObject.FindGameObjectWithTag("Food").GetComponent<Slider>().value = foodVar.RuntimeValue / 100f;
