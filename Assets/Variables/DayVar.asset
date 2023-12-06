@@ -16,5 +16,5 @@ MonoBehaviour:
   PersistanceType: 0
   DefaultValue: 1
   Comment: 
-  MaxValue: 7
+  MaxValue: 8
   MinValue: 1

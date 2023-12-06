@@ -186,14 +186,14 @@ MonoBehaviour:
     of rescue reach the ears of the surviving few. You and your companions have weathered
     the storm, outsmarted the shadows, and stood tall in the face of adversity.
 
-    
+
 
     With
     the rescue party on the horizon, the survivors emerge from the purgatory paradise,
     forever changed by the journey. The forest may keep its secrets, but your tale
     becomes a testament to courage, unity, and the indomitable spirit.
 
-    
+
 
     Congratulations!
     You''ve navigated the challenges, made the tough decisions, and emerged victorious.
@@ -711,7 +711,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 0, y: 30}
   m_SizeDelta: {x: 100, y: 35}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1960169538

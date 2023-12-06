@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Night.unity
     guid: 779296b53064db249b122bb351237518
+  - enabled: 1
+    path: Assets/Scenes/Water.unity
+    guid: 8f0dd1574af7a884f98b75071dd3e216
+  - enabled: 1
+    path: Assets/Scenes/Food.unity
+    guid: 3729e1d6193134845830324b7e378cbf
   m_configObjects: {}
