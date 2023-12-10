@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 4142546634
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1cfbeb88e66bd092941bd0aefa56179e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/24_song1_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/16_ivegotyouremail_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/13_cantwait_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/14_okletssee_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/19_what_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/22_ahsure_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/27_song4_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/03_Prank_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/04_IamBigFan_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/25_song2_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/01_Howareyou_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/07_yeahthatmake_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/08_Hm_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/20_thankyouwait_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/26_song3matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/02_Soundsfun_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/10_bothgreyhounds_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/23_Italwaysdoes_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/12_sureIcan_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/18_sothatsit_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/05_sofarSogood_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/21_didyoujusthangup_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/06_alright_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/11_iamawake_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/09_Hm2_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/15_heymyinbox_matej_en.txt
+- Assets/CharlesFMVEngine/Samples/Assets/Movies/17_thankyou_matej_en.txt
+Dependencies: []
