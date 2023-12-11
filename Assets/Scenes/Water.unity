@@ -2389,8 +2389,7 @@ MonoBehaviour:
         height: 125
       Type: 0
       Connections: 2c000000
-      Text: Rainwater puddle, but it's all muddy. Thirsty, but drinking mud can't
-        be good, right?
+      Text: c
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
@@ -4025,8 +4024,7 @@ MonoBehaviour:
         height: 125
       Type: 0
       Connections: 2c000000
-      Text: Rainwater puddle, but it's all muddy. Thirsty, but drinking mud can't
-        be good, right?
+      Text: c
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
